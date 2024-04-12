@@ -19,7 +19,7 @@ export default function zippers({params,searchParams}) {
               
             </div>
             <div>
-                <Link href='/'>Home</Link>
+                {searchParams.lang === 'sp' ? <Link href='/'>Inicio</Link>: <Link href='/'>Home</Link>}
             </div>
         </main>
 

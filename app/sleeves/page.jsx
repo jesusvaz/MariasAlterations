@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import foto from '../../public/mangas.jpeg';
 export default function sleves({params,searchParams}) {
+    console.log('Lang:',searchParams.lang )
     return (
         <main className="flex min-h-screen flex-col items-center  p-4">
             <Image
@@ -19,7 +20,7 @@ export default function sleves({params,searchParams}) {
                
             </div>
             <div>
-                <Link href='/'>Home</Link>
+                {searchParams.lang === 'sp' ? <Link href='/'>Inicio</Link>: <Link href='/'>Home</Link>}
             </div>
         </main>
 

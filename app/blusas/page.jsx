@@ -22,7 +22,7 @@ export default function blusas({params,searchParams}) {
             
             </div>
             <div>
-                <Link href='/'>Home</Link>
+                {searchParams.lang === 'sp' ? <Link href='/'>Inicio</Link>: <Link href='/'>Home</Link>}
             </div>
         </main>
 

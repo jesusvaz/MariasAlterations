@@ -258,7 +258,7 @@ export default function Home() {
 
       </div>
 
-      <Link
+      {/* <Link
         href="/contact"
         className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         rel="noopener noreferrer"
@@ -271,7 +271,30 @@ export default function Home() {
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           {lang === 'sp' ? '¡Desbloquea posibilidades y conéctate con nosotros! Únase a nuestra red para vivir una experiencia enriquecedora que abre puertas a la colaboración y el éxito.' : ' Unlock possibilities and connect with us! Join our network for an enriching experience that opens doors to collaboration and success.'}
         </p>
-      </Link>
+      </Link> */}
+
+<Link
+          href={{
+            pathname:'/contact',
+            query:{lang}          }}
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+
+          rel="noopener noreferrer"
+        >
+        {/* <Link
+          // href="/pantalones"
+
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        > */}
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            {lang === 'sp' ? 'Conactanos' : 'Contact us'}
+
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            {lang === 'sp' ? 'Visita nuestras redes' : 'take a look o our social networks'}
+          </p>
+        </Link>
     </main>
   )
 }
