@@ -69,6 +69,37 @@ export default function Home() {
 
         <Link
           href={{
+            pathname:'/zippers',
+            query:{lang}          }}
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+
+          rel="noopener noreferrer"
+        >
+
+          
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+          {lang === 'sp' ? 'Cremallera' : 'Zippers'}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          {lang === 'sp' ? 'La costura de un zipper no es simplemente una tarea técnica, sino un arte..' : 'Sewing a zipper is not simply a technical task, but an art...'}
+          </p>
+        </Link>
+
+        {/* <Link
+          href="/zippers"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            {lang === 'sp' ? 'Cremallera' : 'Zippers'}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            {lang === 'sp' ? 'La costura de un zipper no es simplemente una tarea técnica, sino un arte..' : 'Sewing a zipper is not simply a technical task, but an art...'}
+          </p>
+        </Link> */}
+
+<Link
+          href={{
             pathname:'/buttons',
             query:{lang}          }}
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -82,19 +113,6 @@ export default function Home() {
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             {lang === 'sp' ? 'En Marias Textile Solutions, nos dedicamos apasionadamente a transformar...' : 'At Marias Textile Solutions, we are passionately dedicated to transforming...'}
-          </p>
-        </Link>
-
-        <Link
-          href="/zippers"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            {lang === 'sp' ? 'Cremallera' : 'Zippers'}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            {lang === 'sp' ? 'La costura de un zipper no es simplemente una tarea técnica, sino un arte..' : 'Sewing a zipper is not simply a technical task, but an art...'}
           </p>
         </Link>
 
