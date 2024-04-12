@@ -1,6 +1,7 @@
 
-import Image from 'next/image'
-import foto from '../../public/marias.jpeg'
+import Image from 'next/image';
+import Link from 'next/link';
+import foto from '../../public/marias.jpeg';
 export default function about() {
     return (
         <main className="flex min-h-screen flex-col items-center  p-4">
@@ -30,3 +31,17 @@ export default function about() {
     )
 }
 
+// HomePage,
+// AboutUs,
+// ContactUs,
+// ProductsServices,
+// Blog,
+// News,
+// FAQ, 
+// Testimonials,
+// Reviews,
+// Portfolio,
+// Projects,
+// Gallery,
+// Privacy
+// Police

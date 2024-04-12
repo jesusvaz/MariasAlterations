@@ -1,6 +1,7 @@
 
-import Image from 'next/image'
-import foto from '../../public/zipper.jpeg'
+import Image from 'next/image';
+import Link from 'next/link';
+import foto from '../../public/zipper.jpeg';
 export default function about() {
     return (
         <main className="flex min-h-screen flex-col items-center  p-4">
@@ -24,6 +25,9 @@ export default function about() {
                 de un zipper puede elevar tu presencia, asegurando que cada cierre sea un elemento destacado de tu
                 estilo distintivo. En Marias' Textile Solutions, la moda se fusiona con la perfección de la costura del
                 zipper para que luzcas impecable y a la vanguardia de las tendencias.
+            </div>
+            <div>
+                <Link href='/'>Home</Link>
             </div>
         </main>
 

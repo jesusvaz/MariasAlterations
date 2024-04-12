@@ -1,6 +1,7 @@
 
-import Image from 'next/image'
-import foto from '../../public/mangas.jpeg'
+import Image from 'next/image';
+import Link from 'next/link';
+import foto from '../../public/mangas.jpeg';
 export default function about() {
     return (
         <main className="flex min-h-screen flex-col items-center  p-4">
@@ -25,6 +26,9 @@ export default function about() {
                 En Marias' Textile Solutions, creamos no solo ropa, sino obras maestras de moda
                 onde la costura de las mangas es la clave para tu presencia impecable y a la vanguardia de las
                 tendencias. Vive la experiencia de la elegancia con nosotros.
+            </div>
+            <div>
+                <Link href='/'>Home</Link>
             </div>
         </main>
 

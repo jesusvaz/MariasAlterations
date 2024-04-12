@@ -1,0 +1,53 @@
+
+
+import Image from 'next/image';
+import Link from 'next/link';
+import foto from '../../public/vastilla.jpeg'
+export default function bastillas({params,searchParams}) {
+    console.log('search:',searchParams);
+    console.log('lang:',searchParams.lang);
+    return (
+        <main className="flex min-h-screen flex-col items-center  p-4">
+            <Image
+                className="rounded-lg"
+                src={foto}
+                alt="Marias bout image showing textile tools"
+                width={400}
+                height={400}
+                priority
+            />
+            <br />
+            <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm l">
+
+
+            {searchParams.lang === 'sp' ? 'Bastillas' : 'Trouser Hem '}
+          
+
+            </div>
+
+            <div>
+                <Link href='/'>Home</Link>
+            </div>
+        </main>
+
+    )
+}
+
+
+// export default function Vastillas() {
+//   return (
+//     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+//     <div className="text-2xl">Vastillas</div>
+//     </main>
+//   )
+// }
+
+  Una bastilla perfecta no es simplemente un detalle, sino la esencia misma de la elegancia y la moda refinada. 
+            En Marias' Textile Solutions, comprendemos que una bastilla expertamente realizada no solo garantiza la 
+            durabilidad de tu ropa, sino que también transforma por completo tu apariencia. Es el toque final que añade 
+            estructura y sofisticación a cada prenda, asegurando que tus atuendos se ajusten a la perfección. Una bastilla
+             cuidadosamente elaborada no solo demuestra tu compromiso con la calidad, sino que también refleja tu sentido 
+             nnato de estilo y atención al detalle. En un mundo impulsado por la moda, la elegancia de una buena bastilla
+              es la clave para destacar, asegurándote de lucir impecable y a la vanguardia de las tendencias. Entra en 
+              el mundo de la moda con confianza y distinción, donde cada bastilla es una obra maestra en Marias' Textile Solutions,.
+

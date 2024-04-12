@@ -1,0 +1,101 @@
+const PAGE_CONTENT = {
+
+  //文
+
+  dataOnPage: [
+
+    {
+      "number": 1,
+      "pageToDisplay": {
+        "esp": "Conocenos",
+        "eng": "About",
+        "por": "Nos conhece"
+      },
+      "pageContent": {
+        "esp": "Fundamos ReactivationPros en 2020 después de haber trabajado como contratistas en la reactivación de cuentas de Amazon y ASIN de Amazon. Me sentí cada vez más insatisfecho y desanimado por la falta de transparencia que se brinda a los vendedores de Amazon desde GetGo. Habiendo pasado personalmente, no solo por el proceso de reactivar mi propia cuenta, sino por la reactivación de cientos de cuentas de otros vendedores, me di cuenta de que las prácticas de aquellos que se presentaban como expertos en Amazon eran menos que estelares, por decir lo mínimo. Reconocí que, honestamente, es más importante que tratar de obtener ganancias a expensas de alguien que está desesperado por obtener ayuda. En muchas ocasiones recibí casos en los que supe de inmediato que iba a tomar más tiempo de lo prometido, o casos en los que, independientemente de cuántas apelaciones se presentaran, Amazon no permitiría que se reactivara la cuenta. Comencé a rechazar casos con más frecuencia y comencé a pedir que se le dieran reembolsos al vendedor, ya que la honestidad siempre ha sido mi principio y regla número uno. Después de sentirme decepcionado por la falta de transparencia, decidí crear mi propio negocio para proporcionar a los vendedores de Amazon los mejores resultados posibles. Ofrezco un camino honesto y directo para que vuelva a trabajar sin aprovechar su situación. Nuestro enfoque único se basa en años de experiencia válida en Amazon, así como en la práctica y las habilidades que son cruciales para la reactivación de las cuentas de vendedor de Amazon. Cuando se comunique con nosotros para trabajar para usted, tenga la seguridad de que estará en manos de los profesionales de la reactivación, los procesos y las políticas de Amazon que brindarán resultados en lugar de falsas promesas.",
+        "eng": "We founded ReactivationPros in 2020 after having worked as contractors in the reactivation of Amazon accounts and Amazon ASINs. I became increasingly dissatisfied and discouraged by the lack of transparency being provided to the Amazon Sellers from the GetGo. Having personally gone through, not only the process of reactivating my own account, but the reactivation of hundred of other Seller’s account I realized the practices of those who pitched themselves as Amazon experts were less than stellar to say the least.  I recognized that honestly is more important than trying to make a profit at the expense of someone who is desperate for help. In many occasions I received cases where I immediately knew that is was going to take longer than promised, or cases that regardless how many appeals were submitted, Amazon would not let the account get reactivated.  I started to refuse cases more frequently and started asking for refunds to be given to the Seller, as honesty has always been my number one principle and rule.  After being disappointed with the lack of transparency I decided to built my own business  to provide Amazon Sellers with the best possible outcomes. I offer an honest and straightforward path to get you back to business without taking advantage of your situation.  Our unique approach is based on years or valid Amazon experience as well as practice and skills that are crucial to the reactivation of Amazon Sellers Accounts.  When you contact us to work for you, be assured that you will be in the hands of Amazon reactivation, processes and policy professionals that will deliver results instead of false promises.",
+        "por": "Fundamos a ReactivationPros em 2020, após ter trabalhado como contratados na reativação de contas da Amazon e ASINs da Amazon. Fiquei cada vez mais insatisfeito e desanimado com a falta de transparência fornecida aos Vendedores da Amazon a partir da GetGo. Tendo passado pessoalmente, não apenas pelo processo de reativar minha própria conta, mas a reativação de centenas de contas de outro vendedor, percebi que as práticas daqueles que se apresentaram como especialistas da Amazon eram menos do que estelares, para dizer o mínimo. Eu reconheci que honestamente é mais importante do que tentar lucrar às custas de alguém que está desesperado por ajuda. Em muitas ocasiões, recebi casos em que soube imediatamente que demoraria mais do que o prometido ou casos em que, independentemente de quantos recursos fossem apresentados, a Amazon não deixava a conta ser reativada. Comecei a recusar casos com mais frequência e comecei a pedir reembolso ao vendedor, já que a honestidade sempre foi meu princípio e regra número um. Depois de ficar desapontado com a falta de transparência, decidi construir meu próprio negócio para fornecer aos vendedores da Amazon os melhores resultados possíveis. Ofereço um caminho honesto e direto para levá-lo de volta aos negócios sem tirar proveito de sua situação. Nossa abordagem única é baseada em anos ou experiência válida na Amazon, bem como prática e habilidades que são cruciais para a reativação das contas de vendedores da Amazon. Quando você entrar em contato conosco para trabalhar para você, tenha certeza de que você estará nas mãos da reativação da Amazon, dos processos e dos profissionais de políticas que vão entregar resultados em vez de falsas promessas."
+      }
+
+    },
+    {
+      "number": 2,
+      "pageToDisplay": {
+        "esp": "Contactanos",
+        "eng": "Contact us",
+        "por": "Contate-Nos"
+
+      },
+      "pageContent": {
+        "esp": "Llame o envíe un mensaje de texto al <mark> 801-494-9512 </mark> correo electrónico: <mark> edwinrsan@gmail.com </mark> reserve una consulta gratuita o complete el formulario para obtener una respuesta en 4 horas.Todas las cotizaciones son gratuitas y gratuitas.",
+        "eng": "Call or Text <mark>801-494-9512</mark>email: <mark>edwinrsan@gmail.com</mark> book a free consultation or fill out the form for a response in 4 hours.  All quotes are complimentary and free or charge.",
+        "por": "Ligue ou envie uma mensagem de texto para <mark> 801-494-9512 </mark> e-mail: <mark> edwinrsan@gmail.com </mark> marque uma consulta gratuita ou preencha o formulário para obter uma resposta em 4 horas.Todas as cotações são gratuitas e gratuitas."
+      }
+    },
+    {
+      "number": 3,
+      "pageToDisplay": {
+        "esp": "Pie de Pagina",
+        "eng": "Footer",
+        "por": "Rodapé"
+
+      },
+      "pageContent": {
+        "esp": "<h2> No hay garantía de que se restablezca su cuenta de vendedor de Amazon y los resultados pueden variar.Debe estar al final de cada página </h2><h6> Ventajas de la reactivación & copy; copyright <em id = 'date'> {new Date (). getFullYear ()} </em> </h6>",
+        "eng": "<h2>There is no guarantee that your Amazon Seller Account will be reinstated and results can vary.This shouldbe at the bottom of every page</h2><h6>Reactivation Pros &copy;copyright <em id='date'>{new Date().getFullYear()}</em></h6>",
+        "por": "<h2> Não há garantia de que sua conta de vendedor da Amazon será restabelecida e os resultados podem variar.Isso deve estar no final de cada página </h2><h6> Prós e cópia da reativação; copyright <em id = 'date'> {new Date (). getFullYear ()} </em> </h6>"
+      }
+    }
+    ,
+    {
+      "number": 4,
+      "pageToDisplay": {
+        "esp": "Encabexado",
+        "eng": "Header",
+        "por": "Cabeçalho"
+
+      },
+      "pageContent": {
+        "esp": "<h2> No hay garantía de que se restablezca su cuenta de vendedor de Amazon y los resultados pueden variar.</h2><h6> Ventajas de la reactivación & copy; copyright <em id = 'date'> {new Date (). getFullYear ()} </em> </h6>",
+        "eng": "<h2>There is no guarantee that your Amazon Seller Account will be reinstated and results can vary.</h2><h6>Reactivation Pros &copy;copyright <em id='date'>{new Date().getFullYear()}</em></h6>",
+        "por": "<h2> Não há garantia de que sua conta de vendedor da Amazon será restabelecida e os resultados podem variar.</h2><h6> Prós e cópia da reativação; copyright <em id = 'date'> {new Date (). getFullYear ()} </em> </h6>"
+      }
+    },
+    {
+      "number": 5,
+      "pageToDisplay": {
+        "esp": "Inicio",
+        "eng": "Home",
+        "por": "Inicio"
+
+      },
+      "pageContent": {
+        "esp": '<h1>Soporte integral de Amazon. </h1> <p className = "services"> <ol className = "options"> <li> Restablecimiento de la cuenta de Amazon </li> <li> Suspensiones de Amazon </li> <li> Restablecimiento de ASIN de Amazon </li> <li> Infracción de IP de Amazon </li> <li> Registro de marca de Amazon </li> <li> Monitoreo del estado de la cuenta de Amazon </li> </ol> </p> <h3 className = "a medida"> Enfoque a medida y personalizado Soporte completo las 24 horas Hacemos el trabajo por usted. </h3> <h1> Contáctenos ahora. </h1> Una vez que hagan clic en Contáctenos ahora, serán llevados a la página de contacto. . En la página siguiente, no es necesario que solicitemos el nombre de la tienda de su cuenta de Amazon. <p className = "contact-us"> En la parte superior de la página Contáctanos podemos decir: La información de contacto también debe estar disponible en la página de inicio. ¿Necesitas ayuda con tu apelación de Amazon? Podemos ayudarlo. Llame o envíe un mensaje de texto al 8014949512, envíe un correo electrónico a edwinrsan@gmail.com, reserve una consulta gratuita o complete el formulario para obtener una respuesta en 4 horas. Todas las cotizaciones son gratuitas y gratuitas. </p>',
+        "eng": '<h1>One stop Amazon Support.</h1><p className="services"><ol className="options"><li>Amazon Account Reinstatement</li><li>Amazon Suspensions</li><li>Amazon ASIN Reinstatement</li><li>Amazon IP Infringement</li><li>Amazon Brand Registry</li><li>Amazon Account Health Monitoring </li></ol></p><h3 className="tailored">Tailored and Customized Approach     Full Support 24 Hours   We do the work for you.</h3><h1>Contact us Now.</h1> Once they click on the Contact us now, they are taken to the Contact Page.  In the page below we do not need to ask for their Amazon Account Store Name.  <p className="contact-us">  On the Top on the Contact us Page we can state:  Contact info should also be available in the Home Page.Do you need help with your Amazon appeal? We can help you.Call or Text  8014949512 email edwinrsan@gmail.com, book a free consultation or fill out the form for a response in 4 hours.  All quotes are complimentary and free or charge.</p>',
+        "por": '<h1>Suporte completo da Amazon. </h1> <p className = "services"> <ol className = "options"> <li> Reintegração de conta da Amazon </li> <li> Suspensões da Amazon </li> <li> Reintegração do Amazon ASIN </li> <li> Violação de IP da Amazon </li> <li> Amazon Brand Registry </li> <li> Amazon Account Health Monitoring </li> </ol> </p> <h3 className = "tailored"> Abordagem sob medida e personalizada Suporte total 24 horas Nós fazemos o trabalho por você. </h3> <h1> Entre em contato agora. </h1> Assim que clicarem em Fale conosco agora, eles serão direcionados para a página de contato . Na página abaixo, não precisamos pedir seu nome de loja da conta Amazon. <p className = "contact-us"> Na parte superior da página Fale conosco, podemos afirmar: As informações de contato também devem estar disponíveis na página inicial. Você precisa de ajuda com seu recurso da Amazon? Podemos ajudá-lo. Ligue ou envie um SMS para 8014949512 e-mail edwinrsan@gmail.com, marque uma consulta gratuita ou preencha o formulário para uma resposta em 4 horas. Todas as cotações são gratuitas e gratuitas. </p>'
+      }
+    },
+    {
+      "number": 6,
+      "pageToDisplay": {
+        "esp": "Servvicios",
+        "eng": "Sercices",
+        "por": "Serviços"
+
+      },
+      "pageContent": {
+        "esp": "<div className = 'services'> <h1> Servicios </h1> <div className = 'table'> <div className = 'row'> <div className = 'cell> <h3> Apelación estándar </h3> < / div> <div className = 'cell'> <h3> Apelación rápida </h3> </div> <div className = 'cell'> <h3> Apelación de emergencia </h3> </div> </div> < div className = 'row'> <div className = 'cell'> Entrega de la apelación 4 días hábiles </div> <div className = cell'> Entrega de la apelación 2 días hábiles </div> <div className = 'cell'> Apelación entrega el mismo día hábil </div> </div> </div> <h1> Restablecimiento de ASIN de Amazon. </h1> Nosotros hacemos el trabajo: usted vuelve al trabajo. Lo ayudaremos a volver a Vender. Podemos ayudarlo a restablecer cualquier listado de Productos de Amazon bloqueados al abordar correctamente el problema. Estamos aquí para asegurarnos de que no pierda ingresos. Estos problemas suelen ser difíciles de resolver, ya que Amazon proporciona una razón poco clara para bloquear o suspender listados. Amazon suspenderá directa o indirectamente su cuenta si su apelación no está a la altura de sus expectativas. Revisaremos su cuenta y enviaremos una apelación específica adaptada y basada en el motivo de la suspensión. <h1> Registro de marca de Amazon </h1> Registro de marca de Amazon está disponible para todos los vendedores de Amazon que tienen una marca que ha sido marca registrada con la patente de EE. UU. y Oficina de Marcas. Existen muchos beneficios del registro de marca, especialmente para las marcas que aún no lo han solicitado. Uno de los beneficios más importantes es el control de la página de detalles para cada producto que alguien lista en Amazon y que está registrado con su marca. <h1> Monitoreo del estado de la cuenta de Amazon. </h1> Nosotros hacemos el trabajo: usted vuelve al trabajo. Nos aseguraremos de que su cuenta se mantenga al día. No corra el riesgo de que su cuenta sea desactivada, permítanos mantenernos al tanto del estado de su cuenta antes de que haya problemas que puedan afectar su capacidad de venta. Nosotros le quitamos la preocupación y monitoreamos su cuenta por usted. Puede concentrarse en vender mientras puede contar con nosotros para monitorear su cuenta. <Hr /> </ div>",
+        "eng": "<div className='services'><h1>Services</h1><div className='table'><div className='row'><div className='cell'><h3>Standard Appeal</h3></div><div className='cell'><h3>Fast Appeal</h3></div><div className='cell'><h3>Emergency Appeal</h3></div></div><div className='row'><div className='cell'>Appeal delivery 4 business days</div><div className='cell'>Appeal delivery 2 Business days </div><div className='cell'>Appeal delivery same Business Day </div></div></div><h1>Amazon ASIN Reinstatement.</h1>  We do the work- You get back to business. We will help you get back to Selling.We can help you reinstate any blocked Amazon Products listings by correctly addressing the issue. We are here to make sure you do not lose revenue. These issues are usually and often difficult to navigate as Amazon provides unclear reason for blocking or suspending listings. Amazon will directly or indirectly suspend your account if your appeal is not up to their expectations.  We will review your account and submit a specific appeal tailored and based on the suspension reason.<h1>Amazon Brand Registry</h1>Amazon Brand Registry is available to all Amazon Sellers that have a Brand that has been Registered Trademark with the US Patent and Trademark Office. There are many benefits of brand registry especially for brands who have not yet applied. One of the most important benefits is the detail page control for every product that anyone listes on Amazon that is registered under your brand.<h1>Amazon Account Health Monitoring.</h1>We do the work- You get back to business. We will make sure your account remains in good standing.Do not run the risk of getting your account deactivated, let us stay on the top of your account health before there are issues that might affect your ability to sell.  We take the worry from you and monitor your account for you. You can focus on selling while you can count on us to monitor your account.<hr/></div >",
+        "por": "<div className = 'services'> <h1> Serviços </h1> <div className = 'table'> <div className = 'row'> <div className = 'cell'> <h3> Recurso padrão </h3> < / div> <div className = 'cell'> <h3> Recurso rápido </h3> </div> <div className = 'cell'> <h3> Recurso de emergência </h3> </div> </div> < div className = 'row'> <div className = 'cell'> Recurso de entrega em 4 dias úteis </div> <div className = 'cell'> Recurso de entrega em 2 dias úteis </div> <div className = 'cell'> Recurso entrega no mesmo dia útil </div> </div> </div> <h1> Reintegração do Amazon ASIN. </h1> Nós fazemos o trabalho - você volta aos negócios. Nós o ajudaremos a voltar a Selling. Podemos ajudá-lo a restabelecer qualquer lista de produtos da Amazon bloqueados abordando o problema corretamente. Estamos aqui para garantir que você não perca receita. Esses problemas costumam ser difíceis de navegar, pois a Amazon fornece motivos pouco claros para bloquear ou suspender listagens. A Amazon suspenderá direta ou indiretamente sua conta se o seu recurso não atender às expectativas. Analisaremos sua conta e enviaremos uma apelação específica feita sob medida e com base no motivo da suspensão. <h1> Amazon Brand Registry </h1> Amazon Brand Registry está disponível para todos os vendedores da Amazon que possuem uma marca registrada com a patente dos EUA e Escritório de Marcas Registradas. Há muitos benefícios no registro de marcas, especialmente para marcas que ainda não se inscreveram. Um dos benefícios mais importantes é o controle da página de detalhes para cada produto listado na Amazon e registrado sob sua marca. <h1> Monitoramento da integridade da conta da Amazon. </h1> Nós fazemos o trabalho - você volta aos negócios. Garantiremos que sua conta permaneça em situação regular. Não corra o risco de ter sua conta desativada, vamos manter o controle sobre a integridade de sua conta antes que haja problemas que possam afetar sua capacidade de vender. Tiramos as preocupações de você e monitoramos sua conta para você. Você pode se concentrar nas vendas enquanto pode contar conosco para monitorar sua conta. <Hr /> </ div>"
+      }
+    }
+  ]
+
+
+};
+
+
+export default PAGE_CONTENT;
+
+
+
